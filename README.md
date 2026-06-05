@@ -1,4 +1,4 @@
-# Dark Store Unit Economics — Indian Quick Commerce
+# Profitability Thresholds in Indian Quick Commerce: A Dark Store Unit Economics Analysis
 
 ## Research question
 What is the exact mathematical tipping point required for a single dark store 
