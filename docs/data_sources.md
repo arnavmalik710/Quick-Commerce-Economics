@@ -13,7 +13,6 @@
 |---|--------|---------|------|-----|------------------|---------|
 
 ## Assumptions log
-> Any number that cannot be directly sourced gets logged here with reasoning.
 
 | Parameter | Value used | Rationale | Confidence |
 |-----------|-----------|-----------|------------|
