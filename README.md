@@ -23,4 +23,4 @@ Python — pandas, numpy, scipy, matplotlib, seaborn
 Work in progress — Phase 1 (data gathering)
 
 ## Findings
-To be updated on project completion.
+To be updated on project completion
