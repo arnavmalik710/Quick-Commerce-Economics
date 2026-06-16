@@ -1,0 +1,9 @@
+tier,scenario,grocery_share_pct,scenario_aov,contribution_margin_per_order
+Tier-1,Grocery-only (0% non-grocery),100.0,600.0,27.12
+Tier-1,Current mix (74% grocery),74.0,662.4,38.27
+Tier-1,Mixed (50/50),50.0,720.0,48.81
+Tier-1,Non-grocery-led (20% grocery),20.0,792.0,62.34
+Tier-2,Grocery-only (0% non-grocery),100.0,390.0,-32.16
+Tier-2,Current mix (74% grocery),74.0,430.56,-25.77
+Tier-2,Mixed (50/50),50.0,468.0,-19.59
+Tier-2,Non-grocery-led (20% grocery),20.0,514.8,-11.48
