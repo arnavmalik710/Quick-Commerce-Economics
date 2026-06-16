@@ -20,7 +20,7 @@ that separates a loss-making dark store from a profitable one.
 Python — pandas, numpy, scipy, matplotlib, seaborn
 
 ## Status
-Work in progress — Phase 1 (data gathering)
+Work in progress — Phase 3 (building model 1)
 
 ## Findings
 To be updated on project completion
