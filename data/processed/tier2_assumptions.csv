@@ -1,0 +1,52 @@
+parameter,value,unit,notes,source,confidence
+store_size_min,1200,sq_ft,Tier-2 dark store minimum,India Foundation 2026 / project charter,Medium
+store_size_max,1800,sq_ft,Tier-2 dark store maximum,India Foundation 2026 / project charter,Medium
+store_size_assumption,1500,sq_ft,Representative Tier-2 store,Derived from range,Medium
+sku_count_assumption,5000,SKUs,Reduced assortment for Tier-2 (platforms adapt model),India Foundation 2026 operational note,Medium
+delivery_radius,4,km,Larger delivery radius in lower density areas,India Foundation 2026 / IIMA 2023,High
+monthly_rent_min,40000,INR,Tier-2 dark store monthly rent minimum,Project charter (RedSeer benchmark),Medium
+monthly_rent_max,80000,INR,Tier-2 dark store monthly rent maximum,Project charter (RedSeer benchmark),Medium
+monthly_rent_assumption,60000,INR,Representative Tier-2 monthly rent,Derived from range,Medium
+aov_gross_assumption,390,INR,Tier-2 AOV = Tier-1 AOV x 0.65 (35% lower),RedSeer Tier-1 vs Tier-2 report,High
+aov_net_assumption,310,INR,Tier-2 net AOV estimate (same discount rate applied),Derived,Medium
+aov_differential_pct,-35.0,percent,Tier-2 AOV is 35% lower than Tier-1,RedSeer Tier-1 vs Tier-2 profitability drivers,High
+take_rate_assumption,16.0,percent_of_GOV,Slightly lower take rate (less ad revenue in smaller markets),Derived,Low
+delivery_fee_per_order,20,INR,Lower delivery fee in price-sensitive Tier-2 markets,Derived,Low
+rider_payout_per_order,55,INR,Slightly higher per-order cost (longer radius),Derived from 4km radius vs 2km,Medium
+rider_monthly_earnings_assumption,18000,INR,"Lower earnings in Tier-2 (fewer orders, lower density)",Derived,Low
+rider_fuel_cost_petrol_per_km,2.35,INR,Same fuel cost per km,Xylem PMS data,High
+rider_fuel_cost_ev_per_km,1.0,INR,Same EV cost per km,Xylem PMS data,High
+ev_fleet_share,50.0,percent,Lower EV penetration in Tier-2 (infrastructure gaps),Derived,Low
+picking_packing_cost_per_order,15,INR,Same in-store cost (similar process),Derived,Medium
+order_processing_time_max,5,minutes,Same processing time constraint,IIMA Working Paper 2023,High
+picker_throughput_per_hour,12,orders,Same throughput ceiling,Derived from IIMA,Medium
+delivery_time_avg,20,minutes,Longer delivery time due to larger radius,Derived from 4km radius,Medium
+logistics_cost_differential_pct,25.0,percent,Tier-2 per-order logistics costs 25% higher than Tier-1,RedSeer Tier-1 vs Tier-2 profitability drivers,High
+orders_per_day_mature_store,800,orders,Estimated mature Tier-2 store (1300 x 0.62 adjustment),Derived from breakeven differential,Medium
+orders_per_day_store_capacity,1500,orders,Lower capacity store in Tier-2,Derived,Low
+breakeven_opd_estimate,1020,orders,Tier-2 breakeven = 1.5-2x Tier-1 breakeven lower bound,RedSeer Tier-1 vs Tier-2 report,High
+breakeven_opd_estimate_upper,1200,orders,Tier-2 breakeven upper bound (2x Tier-1 lower),RedSeer Tier-1 vs Tier-2 report,High
+breakeven_opd_differential_multiplier,1.75,x,Tier-2 breakeven OPD is 1.5-2x higher than Tier-1,RedSeer Tier-1 vs Tier-2 profitability drivers,High
+nov_per_day_per_store_estimate,312000,INR,Estimated Tier-2 NOV/day/store (Tier-1 x 0.65 AOV x lower OPD),Derived,Low
+contribution_margin_estimate_pct,-8.0,percent_of_GOV,Estimated Tier-2 CM (worse than Tier-1 due to lower AOV + higher costs),Derived,Low
+grocery_share_gov,85.0,percent,Higher grocery mix in Tier-2 (less non-grocery adoption),Derived from market behaviour,Medium
+non_grocery_share_gov,15.0,percent,Lower non-grocery penetration in Tier-2,Derived,Medium
+grocery_margin,12.5,percent,Same grocery margin,Industry benchmark,Medium
+non_grocery_margin,42.5,percent,Same non-grocery margin,Industry benchmark,Medium
+expiry_provision_pct_cogs,5.0,percent,"Higher expiry risk in Tier-2 (lower volume, less turnover)",Derived,Medium
+monthly_ordering_frequency,3.5,orders_per_month,Lower ordering frequency in Tier-2 (habit not yet formed),Derived from RedSeer metro dominance data,Medium
+payment_gateway_cost_pct,1.5,percent_of_AOV,Same payment gateway cost,Derived,Low
+packaging_cost_per_order,8,INR,Same packaging cost,Derived,Low
+overhead_allocation_per_order,25,INR,Higher overhead per order (lower volume to absorb fixed costs),Derived,Low
+discount_rate_gov_to_nov,20.9,percent,Same discount rate applied,Derived from Blinkit data,Medium
+city_gmv_share_nonmetro,15.5,percent,Non-metro share of QC GMV FY25 (midpoint 15-17%),RedSeer FY25 estimates,High
+store_count_nonmetro_share,32.0,percent,Non-metro share of dark store count,India Foundation / Savills Oct 2025,High
+gmv_per_store_nonmetro_vs_metro,ratio_0.48,ratio,Non-metro GMV per store is ~48% of metro (15.5/32 vs 84.5/68),Derived from RedSeer + Savills data,Medium
+picking_staff_base_min,4,headcount,Base picking staff for Tier-2 store,Project charter,Medium
+picking_staff_base_max,6,headcount,Maximum base picking staff for Tier-2 store,Project charter,Medium
+investment_total_min,3500000,INR,Instamart franchise minimum investment (₹35L),Batch 1 franchise data,High
+investment_total_max,4000000,INR,Instamart franchise maximum investment (₹40L),Batch 1 franchise data,High
+monthly_net_profit_min,140000,INR,Instamart franchise monthly net profit minimum,Batch 1 franchise data,Medium
+monthly_net_profit_max,250000,INR,Instamart franchise monthly net profit maximum,Batch 1 franchise data,Medium
+payback_period_months_min,18,months,Franchise payback period minimum,Batch 1 franchise data,Medium
+payback_period_months_max,24,months,Franchise payback period maximum,Batch 1 franchise data,Medium

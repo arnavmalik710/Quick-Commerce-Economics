@@ -1,0 +1,72 @@
+parameter,value,unit,notes,source,confidence
+store_size_min,3500,sq_ft,Standard dark store minimum,Swiggy AR FY25,High
+store_size_max,4500,sq_ft,Standard dark store maximum,Swiggy AR FY25,High
+store_size_megapod_min,10000,sq_ft,Megapod size minimum (metro only),Swiggy AR FY25,High
+store_size_megapod_max,12000,sq_ft,Megapod size maximum (metro only),Swiggy AR FY25,High
+store_size_assumption,4000,sq_ft,Representative Tier-1 store (blend of standard + megapod),Derived,Medium
+sku_count_standard,20000,SKUs,Standard dark store SKU count,Swiggy AR FY25,High
+sku_count_megapod,50000,SKUs,Megapod SKU count,Swiggy AR FY25,High
+sku_count_assumption,20000,SKUs,Representative Tier-1 store,Swiggy AR FY25,High
+delivery_radius,2,km,One-way delivery radius,India Foundation 2026 / IIMA 2023,High
+monthly_rent_min,150000,INR,Dark store monthly rent minimum,Project charter (RedSeer benchmark),Medium
+monthly_rent_max,300000,INR,Dark store monthly rent maximum,Project charter (RedSeer benchmark),Medium
+monthly_rent_assumption,200000,INR,Representative Tier-1 monthly rent,Derived from range,Medium
+aov_gross_fy25,667,INR,Gross AOV Instamart FY25,Swiggy AR FY25,High
+aov_net_fy25,528,INR,Net AOV (NAOV) Instamart FY25,Swiggy AR FY25,High
+aov_blinkit_net,525,INR,Blinkit net order value per order Q4FY26,Eternal AR FY25 / Q4FY26 data,High
+aov_assumption,600,INR,Representative Tier-1 AOV (blended Blinkit + Instamart),Derived,Medium
+take_rate_blinkit,23.3,percent_of_NOV,Blinkit revenue as % of NOV FY25,Eternal AR FY25,High
+take_rate_instamart,15.3,percent_of_GOV,Instamart revenue as % of GOV FY25,Swiggy AR FY25,High
+take_rate_assumption,18.0,percent_of_GOV,Representative blended take rate,Derived,Medium
+delivery_fee_per_order,25,INR,Delivery fee charged to customer (estimated),Derived from revenue decomposition,Low
+rider_payout_per_order,54,INR,Observed rider payout per delivery,Xylem PMS Research field experiment,Medium
+rider_payout_blinkit_pct,7.0,percent_of_AOV,Blinkit rider cost as % of AOV,Industry comparison report,High
+rider_payout_zepto_pct,10.0,percent_of_AOV,Zepto rider cost as % of AOV,Industry comparison report,High
+rider_payout_assumption,50,INR,Representative rider payout per order (7-8% of ₹600 AOV),Derived,Medium
+rider_monthly_earnings_consistent,27726,INR,Consistent schedule rider earnings excl. fuel,Eternal Q3 FY25 shareholder letter,High
+rider_monthly_earnings_industry_min,21000,INR,Industry average minimum monthly earnings,India Foundation 2026,High
+rider_monthly_earnings_industry_max,25000,INR,Industry average maximum monthly earnings,India Foundation 2026,High
+rider_fuel_cost_petrol_per_km,2.35,INR,Petrol scooter running cost per km,Xylem PMS / batch 1 data,High
+rider_fuel_cost_ev_per_km,1.0,INR,EV scooter running cost per km,Xylem PMS / batch 1 data,High
+rider_monthly_cost_petrol,15000,INR,Petrol scooter monthly operating cost (midpoint),Batch 1 vehicle cost data,High
+rider_monthly_cost_ev,7000,INR,EV scooter monthly operating cost (midpoint),Batch 1 vehicle cost data,High
+ev_fleet_share,65.0,percent,Share of QC delivery fleet that is EV,India Foundation 2026,High
+picking_packing_cost_per_order,15,INR,In-store picker/packer cost per order (estimated),Derived from workforce data,Low
+order_processing_time_max,5,minutes,Maximum in-store processing time (picking + packing),IIMA Working Paper 2023,High
+dispatch_prep_time,2.25,minutes,Dispatch preparation time within store,IIMA Working Paper 2023,High
+picker_throughput_per_hour,12,orders,Max orders per picker per hour (60/5 min),Derived from IIMA processing time,Medium
+delivery_time_avg,13,minutes,Average delivery time nationally,Swiggy Corp Deck / Instamart data,High
+orders_per_day_mature_store_min,1200,orders,Mature store minimum (Instamart peak Q2FY25),Swiggy Corp Deck FY25,High
+orders_per_day_mature_store_max,1450,orders,Mature store maximum (Blinkit implied FY25),Derived from Blinkit NOV/NAOV,High
+orders_per_day_assumption,1300,orders,Representative mature Tier-1 store,Derived,Medium
+orders_per_day_store_capacity,2000,orders,Average store capacity,Swiggy Corp Deck FY25,High
+store_utilization_rate,65.0,percent,Current utilization of mature stores,Derived from 1300/2000,Medium
+breakeven_opd_estimate,1200,orders,Industry breakeven estimate for metro,RedSeer / project charter,Medium
+nov_per_day_per_store_instamart,766000,INR,Instamart NOV per day per store FY25,Swiggy AR FY25,High
+gov_per_day_per_store_instamart,963000,INR,Instamart GOV per day per store FY25,Swiggy AR FY25,High
+gov_per_day_per_store_blinkit,963000,INR,Blinkit GOV per day per store FY25 (same source),Swiggy AR FY25,High
+contribution_margin_blinkit_pct_nov,4.3,percent_of_NOV,Blinkit CM % of NOV FY25,Eternal AR FY25,High
+contribution_margin_instamart_pct_gov,-4.0,percent_of_GOV,Instamart CM % of GOV FY25,Swiggy AR FY25,High
+contribution_per_order_blinkit,22.5,INR,Blinkit contribution per order FY25,Derived (₹953Cr / 424M orders),High
+contribution_per_order_instamart,-20.6,INR,Instamart contribution per order FY25,Derived (-4% x GOV / 285.5M orders),High
+ebitda_margin_blinkit_pct_nov,-1.3,percent_of_NOV,Blinkit adj EBITDA margin FY25,Eternal AR FY25,High
+ebitda_margin_instamart_pct_gov,-14.3,percent_of_GOV,Instamart adj EBITDA margin FY25,Swiggy AR FY25,High
+ebitda_loss_per_order_blinkit,-6.9,INR,Blinkit EBITDA loss per order FY25,Derived (-₹292Cr / 424M orders),High
+steady_state_ebitda_target_pct,5.5,percent_of_NOV,Industry steady state EBITDA target (midpoint 5-6%),Blinkit mgmt guidance / Instamart target,High
+mature_market_ebitda_delhi,5.5,percent_of_NOV,Delhi NCR trending toward 5-6% steady state,Eternal Q4FY26 data,High
+grocery_share_gov,74.0,percent,Grocery % of QC GOV Q2FY26 (Instamart),Swiggy Corp Deck Nov 2025,High
+non_grocery_share_gov,26.0,percent,Non-grocery % of QC GOV Q2FY26 (Instamart),Swiggy Corp Deck Nov 2025,High
+grocery_margin,12.5,percent,Grocery category margin (midpoint 10-15%),Industry benchmark,Medium
+non_grocery_margin,42.5,percent,Non-grocery margin (midpoint 35-50%),Industry benchmark,Medium
+expiry_provision_pct_cogs,3.0,percent,Inventory write-off provision (QC <5% wastage),India Foundation 2026 / IIMA,Medium
+packaged_foods_share_sales,28.0,percent,Packaged foods share of QC sales volume,India Foundation 2026,High
+dairy_share_sales,22.0,percent,Dairy share of QC sales volume,India Foundation 2026,High
+monthly_ordering_frequency,6.0,orders_per_month,Average user orders per month FY24,RedSeer FY24,High
+payment_gateway_cost_pct,1.5,percent_of_AOV,Payment gateway charges (estimated),Derived from contribution definition,Low
+packaging_cost_per_order,8,INR,Packaging cost per order (estimated),Derived,Low
+overhead_allocation_per_order,20,INR,Tech + warehouse mgmt + support overhead per order,Derived from below-contribution costs,Low
+discount_rate_gov_to_nov,20.9,percent,GOV to NOV discount rate (Blinkit FY25),Derived (28273-22371)/28273,High
+variable_costs_pct_gov_instamart,17.4,percent_of_GOV,Variable costs % GOV Q2FY26 (improving),Swiggy Corp Deck Nov 2025,High
+below_contribution_costs_pct_gov,9.5,percent_of_GOV,Below-contribution fixed costs % GOV Q2FY26,Swiggy Corp Deck Nov 2025,High
+city_gmv_share_metro,83.0,percent,Metro top-8 cities share of QC GMV FY25,RedSeer,High
+ebitda_positive_status,Q3FY26,quarter,Blinkit achieved adj EBITDA positive,India Foundation 2026,High
