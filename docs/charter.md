@@ -41,9 +41,9 @@ order volume, SKU mix, and logistics efficiency required for profitability.
 | 0 | Project structure + charter | ✅ Done |
 | 1 | Data gathering | ✅ Done |
 | 2 | Model 1: unit economics | ✅ Done |
-| 3 | Model 2: Poisson demand | ⬜ |
-| 4 | Model 3: sensitivity analysis | ⬜ |
-| 5 | Outputs finalized | ⬜ |
+| 3 | Model 2: Poisson demand | ✅ Done |
+| 4 | Model 3: sensitivity analysis | ✅ Done |
+| 5 | Outputs finalized | in progress |
 | 6 | Appendix | ⬜ |
 | 7 | Executive slide | ⬜ |
 | 8 | Final push | ⬜ |
