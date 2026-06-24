@@ -1,0 +1,21 @@
+tier,variable,label,base_cm,cm_plus_20pct,cm_minus_20pct,swing_plus,swing_minus,total_swing
+Tier-1,take_rate_pct,Platform Take Rate,28.53,50.13,6.93,21.6,-21.6,43.2
+Tier-1,aov,Average Order Value (AOV),28.53,47.26,9.79,18.73,-18.73,37.46
+Tier-1,rider_payout,Rider Payout per Order,28.53,18.53,38.53,-10.0,10.0,20.0
+Tier-1,delivery_fee,Delivery Fee Charged,28.53,33.53,23.53,5.0,-5.0,10.0
+Tier-1,overhead,Overhead per Order,28.53,24.53,32.53,-4.0,4.0,8.0
+Tier-1,picking_cost,Picking & Packing Cost,28.53,25.53,31.53,-3.0,3.0,6.0
+Tier-1,expiry_pct,Inventory Expiry Provision,28.53,25.66,31.39,-2.87,2.87,5.74
+Tier-1,orders_per_day,Orders per Day (Volume),28.53,29.38,27.24,0.85,-1.28,2.14
+Tier-1,monthly_rent,Monthly Dark Store Rent,28.53,27.5,29.55,-1.03,1.03,2.05
+Tier-1,grocery_share,Grocery Share of SKU Mix,28.53,27.73,29.32,-0.8,0.8,1.6
+Tier-2,take_rate_pct,Platform Take Rate,-31.28,-18.81,-43.77,12.48,-12.48,24.96
+Tier-2,rider_payout,Rider Payout per Order,-31.28,-42.28,-20.28,-11.0,11.0,22.0
+Tier-2,aov,Average Order Value (AOV),-31.28,-22.04,-40.53,9.24,-9.24,18.49
+Tier-2,overhead,Overhead per Order,-31.28,-36.28,-26.28,-5.0,5.0,10.0
+Tier-2,delivery_fee,Delivery Fee Charged,-31.28,-27.28,-35.28,4.0,-4.0,8.0
+Tier-2,expiry_pct,Inventory Expiry Provision,-31.28,-34.52,-28.05,-3.24,3.24,6.47
+Tier-2,picking_cost,Picking & Packing Cost,-31.28,-34.28,-28.28,-3.0,3.0,6.0
+Tier-2,grocery_share,Grocery Share of SKU Mix,-31.28,-32.28,-30.29,-0.99,0.99,1.99
+Tier-2,orders_per_day,Orders per Day (Volume),-31.28,-30.87,-31.91,0.42,-0.62,1.04
+Tier-2,monthly_rent,Monthly Dark Store Rent,-31.28,-31.78,-30.78,-0.5,0.5,1.0
